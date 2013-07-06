@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Configurator</string>
+    <string name="AC1Top">High alarm threshold AC, V:</string>
+    <string name="AC2Top">The upper warning threshold AC, V:</string>
+    <string name="AC1Low">Lower warning threshold AC, V:</string>
+    <string name="AC2Low">Lower alarm threshold AC, V:</string>
+    <string name="ACHysteresis">Hysteresis AC, V:</string>
+
+    <string name="DCTop">The upper warning threshold DC, V:</string>
+    <string name="DCLow">Lower warning threshold DC, V:</string>
+    <string name="DCHysteresis">HysteresisDC, V:</string>
+
+    <string name="termal1Top">High alarm threshold T, °C:</string>
+    <string name="termal2Top">The upper warning threshold T, °C:</string>
+    <string name="termal1Low">Lower warning threshold T, °C:</string>
+    <string name="termal2Low">Lower alarm threshold T, °C:</string>
+    <string name="termalHysteresis">Hysteresis T, °C:</string>
+    <string name="corection">Corection T, °C (-20 to 20):</string>
+
+    <string-array name="acessNumber">
+        <item>+380507654321</item>
+        <item>+380507654322</item>
+        <item>+380507654323</item>
+        <item>+380507654324</item>
+        <item>+380507654325</item>
+        <item>+380507654326</item>
+        <item>+380507654327</item>
+        <item>+380507654328</item>
+        <item>+380507654329</item>
+        <item>+380507654310</item>
+        <item>+380507654311</item>
+        <item>+380507654312</item>
+        <item>+380507654313</item>
+        <item>+380507654314</item>
+        <item>+380507654315</item>
+    </string-array>
+</resources>
