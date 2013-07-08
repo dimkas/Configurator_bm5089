@@ -5,6 +5,9 @@
           android:versionName="1.0">
 
     <uses-sdk android:minSdkVersion="15"/>
+    <uses-feature android:name="android.hardware.usb.host" />
+    <user-feature android:name="android.hardware.usb.UsbDevice" />
+
     <application
             android:label="@string/app_name"
             android:icon="@drawable/ic_launcher">
@@ -15,6 +18,13 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                    android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                    android:resource="@xml/device_filter" />
         </activity>
         <activity
                 android:name=".ConfiguratorActivity"
@@ -22,5 +32,6 @@
         <activity
                 android:name=".ULActivity"
                 android:label="UL"/>
+        <activity android:name=".SerialConsoleActivity"/>
     </application>
 </manifest>

@@ -18,6 +18,9 @@
     <string name="termalHysteresis">Hysteresis T, °C:</string>
     <string name="corection">Corection T, °C (-20 to 20):</string>
 
+    <string name="refreshing">Refreshing...</string>
+
+
     <string-array name="acessNumber">
         <item>+380507654321</item>
         <item>+380507654322</item>
